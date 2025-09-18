@@ -13,6 +13,34 @@
     }
 }
 
+.gallery{
+    background-color: rgba(54, 101, 115, 0.39);
+}
+
+.gallery h1{
+    font-style: oblique;
+    margin-bottom: 30px;
+}
+
+.gallery h1 b{
+    color: #069;
+    font-family: Arial;
+}
+
+.zoomP{
+    /* Aumentamos a largura e altura durante 1 segundos */
+    transition: width 1.1s, height 1.1s, transform 1.1s;
+    -moz-transition: width 1.1s, height 1.1s, -moz-transform 1.1s;
+    -webkit-transition: width 1.1s, height 1.1s, -webkit-transform 1.1s;
+    -o-transition: width 1.1s, height 1.1s,-o-transform 1.1s;
+}
+.zoomP:hover{
+    transform: scale(1.05);
+    box-shadow: 1px 0px 10px 1px #069;
+    -webkit-transform:scale(1.05);transform:scale(1.05)
+}
+
+
 .outros-servicos h1{
     font-style: oblique;
     margin-bottom: 30px;
@@ -22,4 +50,7 @@
     color: #069;
     font-family: Arial;
 }
+
+
+
 
