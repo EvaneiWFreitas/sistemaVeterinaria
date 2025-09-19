@@ -92,5 +92,17 @@
     text-align: center;
 }
 
+/* CONTATOS */
+.contatos{
+    background-image: url("../images/Banner_Contatos.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-color: #0dcaf0;
+}
+.contatos h1{
+    font-family: Arial;
+    color: #FFFFFF;
+}
+
 
 
