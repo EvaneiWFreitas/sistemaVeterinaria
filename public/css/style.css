@@ -1,8 +1,10 @@
+/* INFO - INFORMAÇÕES */
 .info{
     background-image: url("../images/bacgraund.jpg");
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
 }
+
 
 @media (max-width:768px) {
     .info{
@@ -13,6 +15,15 @@
     }
 }
 
+
+/* NOSSOS SERVIÇOS */
+.nossoservico:hover{
+    box-shadow: 1px 0px 10px 1px #069;
+}
+
+
+
+/* OUTRA GALLERY */
 .gallery{
     background-color: rgba(54, 101, 115, 0.39);
 }
@@ -36,11 +47,12 @@
 }
 .zoomP:hover{
     transform: scale(1.05);
-    box-shadow: 1px 0px 10px 1px #069;
+    /*box-shadow: 1px 0px 10px 1px #069;*/
     -webkit-transform:scale(1.05);transform:scale(1.05)
 }
 
 
+/* OUTROS SERVIÇOS */
 .outros-servicos h1{
     font-style: oblique;
     margin-bottom: 30px;
@@ -51,6 +63,29 @@
     font-family: Arial;
 }
 
+
+/* CLIENTES */
+.clientes{
+    background-color:#FFFFFF;
+
+}
+
+.clientes h1{
+    font-style: oblique;
+    text-align: center;
+}
+.clientes h1 b{
+    color: #069;
+}
+
+/* NOSSOS PARCEIROS */
+.parceiros{
+    background-color: #F4F4F4;
+}
+.parceiros h1{
+    font-style: oblique;
+    text-align: center;
+}
 
 
 
