@@ -15,11 +15,11 @@
 
 <body>
 <nav><!-- Início do Menu de Navegação -->
-    <nav class="navbar navbar-expand-lg bg-success fixed-top" >
+    <nav class="navbar navbar-expand-lg  fixed-top menu" >
         <div class="container">
             <a class="navbar-brand" href="#" style="color: #ffffff">
                 <img src="public/images/logo2.jpg" alt="Logo" width="50" height="50" class="d-inline-block align-text-top img-fluid rounded-circle">
-                <a href="./" class="nav-link me-5" aria-current="page" href="#" style="color: #ffffff; font-size: x-large">VetAmoPets</a>
+                <a href="./" class="nav-link me-5" aria-current="page" href="#" style="color: #ffffff; font-size: x-large">VetPets</a>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -30,35 +30,36 @@
                         <a class="nav-link btn btn-outline-warning" aria-current="page" href="./" style="color: #ffffff"><i class="bi bi-house-add-fill"></i> Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-warning" href="#" style="color: #ffffff"><i class="bi bi-hammer"></i> Serviços</a>
+                        <a class="nav-link btn btn-warning" href="#" style="color: #ffffff"><i class="bi bi-card-image"></i> Galeria</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-warning" href="#" style="color: #ffffff"><i class="bi bi-person-video2"></i> Galeria Pet</a>
+                        <a class="nav-link btn btn-warning" href="#" style="color: #ffffff"><i class="bi bi-hammer"></i> Serviços</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link btn btn-warning" href="#" style="color: #ffffff"><i class="bi bi-clipboard2-pulse"></i> Clinica</a>
                     </li>
-                    <!--
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Link
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    -->
+
+
+
                     <li class="nav-item">
                         <a class="nav-link btn btn-warning" href="#" style="color: #ffffff"><i class="bi bi-telephone-fill"></i> Contatos</a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
+                <div class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
                     <button class="btn btn-warning" type="submit">Buscar</button>
-                </form>
+                </div>
+                <li class="nav-item dropdown link">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-person"></i> Logar
+                    </a>
+                    <ul class="dropdown-menu menuDrop">
+                        <li><a class="dropdown-item" href="login">Entrar</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Cadastrar-se</a></li>
+                    </ul>
+                </li>
 
             </div>
         </div>
@@ -180,7 +181,7 @@
             <div class="col-md-3 nossoservico">
                 <div class="card border-0 zoomP">
                     <img src="public/images/veterinario-cuidando-de-cachorro-de-estimacao.jpg"
-                         class="card-img-top img-fluid" alt="..." width="100%">
+                         class="card-img-top" alt="..." width="50%">
 
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -194,7 +195,7 @@
             <div class="col-md-3 nossoservico">
                 <div class="card border-0 zoomP">
                     <img src="public/images/veterinario-verificando-cachorro-tiro-medio.jpg"
-                         class="card-img-top img-fluid" alt="..." width="100%">
+                         class="card-img-top" alt="..." width="50%">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
@@ -207,7 +208,7 @@
             <div class="col-md-3 nossoservico">
                 <div class="card border-0 zoomP">
                     <img src="public/images/close-no-veterinario-cuidando-animal-de-estimacao.jpg"
-                         class="card-img-top img-fluid" alt="..." width="100%">
+                         class="card-img-top" alt="..." width="50%">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
@@ -221,7 +222,7 @@
             <div class="col-md-3 nossoservico">
                 <div class="card border-0 zoomP">
                     <img src="public/images/close-no-veterinario-cuidando-animal-de-estimacao.jpg"
-                         class="card-img-top img-fluid" alt="..." width="100%">
+                         class="card-img-top" alt="..." width="50%">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
@@ -600,13 +601,13 @@
     </div>
 </section><!-- FINAL DO MAPA DE LOCALIZAÇÃO -->
 
-<section class="contatos">
+<section class="contatos"><!-- INICIO DA SEÇÃO CONTATOS -->
     <div class="container">
         <br><br>
         <div class="row">
             <!-- ESSAS DIVs COMENTADA FAZ O FORMULÁRIO FICAR NO CENTRO -->
             <!--<div class="col-md-4"></div>-->
-                <div class="col-md-4">
+                <div class="col-md-5">
                     <h1>Nosso Contato</h1>
                     <br><br>
                     <div class="card">
@@ -643,9 +644,86 @@
             <!--<div class="col-md-4"></div>-->
         </div>
     </div>
-</section>
+</section><!-- FINAL DA SEÇÃO CONTATOS -->
 
-<br><br>
+<footer class="container-fluid footer"><!-- INICIO DA SEÇÃO RODAPÉ -->
+   <div class="container">
+       <br><br>
+       <div class="row">
+           <div class="col-md-3">
+              <center>
+                  <img src="public/images/LOGO_PETS_white-2-04.png" width="100%" alt="">
+              </center>
+           </div>
+           <div class="col-md-3">
+               <br>
+               <h3><b>Sistema de Veterinário</b></h3>
+               <p>
+                   <a href="">
+                       inicio
+                   </a>
+                   <br>
+                   <a href="">
+                       Sobre nós
+                   </a>
+                   <br>
+                   <a href="">
+                       Galeria
+                   </a>
+                   <br>
+                   <a href="">
+                       Testemunhos dos Clientes
+                   </a>
+                   <br>
+                   <a href="">
+                       Nossos Serviços
+                   </a>
+                   <br>
+                   <a href="">
+                       Parceiros
+                   </a>
+               </p>
+           </div>
+           <div class="col-md-3">
+               <p>
+                   <span>
+                       <h4>Fale Conosco</h4>
+                       <i class="bi bi-whatsapp"></i>
+                       (xx) xxxxx-xxxx
+                       <br>
+                       <i class="bi bi-envelope-plus"></i> info@email.com
+                       <br><br>
+                   </span>
+                   <span>
+                       Sede Provisória:<br>
+                       <i class="bi bi-geo-alt"></i> Rua Dardo Lote 06 Qdra 765 - Cep: 26987-00
+                       - São João de Meriti-RJ.
+                   </span>
+
+               </p>
+           </div>
+           <div class="col-md-3">
+               <center>
+                   <img src="public/images/LOGO_PETS.png" width="40%" alt="">
+               </center>
+           </div>
+       </div>
+       <br><br>
+   </div>
+</footer><!-- FINAL DA SEÇÃO RODAPÉ -->
+<div class="container-fluid finalfooter"><!-- INICIO PARTE FINAL DO FOOTER -->
+    <span>
+        <br>
+        <center>
+            <!--Copyright @2025 - Todos os direitos Reservados-->
+            © 2025 W&D Informática - Todos os direitos reservados.
+            <br>
+            Desenvolvedor: William Nascimento.
+        </center>
+        <br>
+    </span>
+</div><!-- FINAL PARTE FINAL DO FOOTER -->
+
 <script src="public/bootstrap/js/bootstrap.min.js"></script>
 <script src="public/bootstrap/js/bootstrap.bundle.js"></script>
 </body>

@@ -1,3 +1,24 @@
+
+/* MENU */
+.menu{
+    background-color: rgba(44, 49, 55, 0.59) !important;
+}
+
+.menuDrop{
+
+}
+.menuDrop li{
+
+}
+
+.link{
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-right: -20px;
+    text-decoration: none;
+    list-style: none;
+}
+
 /* INFO - INFORMAÇÕES */
 .info{
     background-image: url("../images/bacgraund.jpg");
@@ -97,12 +118,36 @@
     background-image: url("../images/Banner_Contatos.jpg");
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
-    background-color: #0dcaf0;
+
 }
 .contatos h1{
     font-family: Arial;
     color: #FFFFFF;
 }
 
+/* FOOTER - RODAPÉ */
+.footer{
+    background-color: #2C3137;
+    margin-top: -5px;
+    color: #FFFFFF;
+}
 
+.footer h3{
+    font-style: oblique;
+    font-size: 19px;
+}
+
+.footer a{
+    font-family: Arial;
+    font-size: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+/* FINAL FOOTER */
+.finalfooter{
+    background-color: #272B30;
+    color: #F4F4F4;
+}
 
